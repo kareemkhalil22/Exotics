@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<style>	
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cart{
+    display: flex;
+    background-color: #A41818;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 60px;
+}
+.fa-solid{
+    color: white;
+}
+.cart p{
+    height: 17px;
+    width: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    background-color: white;
+    color: #A41818;
+}
+.wrapper{
+	margin: 0 auto ;
+	width: 1000px;
+	height: 100%;
+	background-color:white;
+	border-radius:10px;
+}
+nav{
+	width:100%;
+	height:50px;
+	background-color:#A41818;
+}
+.ul11{
+float: right;
+}
+.ul11 li{
+list-style:none;
+display:inline-block;
+float:left;
+line-height:25px;
+	
+}
+.ul11 li a{
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	padding: 0 20px;
+}
+.ul11 li a:hover{
+	color:yellow;
+	text-transform:;
+	font-size:25px;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.fa-solid{
+    color: #A41818;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: #A41818;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: #A41818;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #A41818;
+    border-radius: 5px;
+    padding: 15px;
+}
+.img-box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+h2{
+    font-size: 20px;
+    color: red;
+}
+button{
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #A41818;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: #333;
+}
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+.row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #A41818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rowimg{
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+}
+.fa-trash:hover{
+    cursor: pointer;
+    color: #333;
+}
+.wrapper1{
+	margin: 0 auto ;
+	width: 1000px;
+	background-color:white;
+	border-radius:10px;
+}
+nav1{
+	width:100%;
+	background-color:#A41818;
+}
+</style>
+    <head>
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+		<title> exotics </title>
+	<link rel="shortcut icon" type="image/jpg" href="img/logo.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+    </head>
+    <body>
+	<div class="wrapper">
+	<nav>
+	     <ul class="ul11">
+		  <li><a href="1.html">home</a></li>
+		  <li><a href="3.html">log in</a></li>	
+		  <li><a href="5.html">products</a></li> 		  
+		  <li><a href="file:///C:/Users/karee/OneDrive/Documents/ecommexotics/2.html">contact us</a> </li>
+		   <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+		 </ul>
+	</nav> 
+	</div>
+        <br>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+            </div>
+        </div>
+        <script src="addtocart.js"></script>
+		<div class="wrapper1">
+   <nav class="nav1">
+	  
+	     <ul class="ul11">
+		  <li><h3><a>contact information:</a></h3></li>
+		  <li><a>exotics@gmail.com</a></li>	
+		  <li><a>01055674428</a></li> 
+		  <li><a>19667</a></li>
+		 </ul>
+	</nav> 
+	</div>
+    </body>
+</html>
